@@ -1,0 +1,20 @@
+
+[mod]Clouds for Minetest[lib_clouds]
+				**************************************************************************************************
+				** Please see license.txt for important information regarding your rights to use this software. **
+				**************************************************************************************************
+
+	lib_clouds for Minetest is a mod that adds inworld clouds to your world.  Based on Dokimi's Self_Organizing_Systems, specifically the grey goo, these clouds are alive.  This mod attempts to mimic real world cloud behavior.
+
+	The goal is to grow this mod, (no pun intended) into an in-world weather system.
+
+	
+	
+	
+	
+	
+	
+	
+	
+Github: https://github.com/ShadMOrdre/Minetest/tree/master/mods/modpack_lib_world_gen/lib_clouds
+Forum: 
