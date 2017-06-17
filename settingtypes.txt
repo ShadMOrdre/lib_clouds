@@ -1,0 +1,24 @@
+#Enable clouds.
+#true or false
+lib_clouds_enable (Generate clouds) bool true
+
+#Enable clouds to generate.
+#true or false
+lib_clouds_regeneration (Generate clouds) bool false
+
+
+
+#[Cloud Y min/max]
+#Sets the minimum and maximum heights for generation of various cloud types.
+
+lib_clouds_cirrus_maxy (Maximum altitude to generate these clouds) int 150
+lib_clouds_cirrus_miny (Minimum altitude to generate these clouds) int 90
+
+lib_clouds_cumulus_maxy (Maximum altitude to generate these clouds) int 80
+lib_clouds_cumulus_miny (Minimum altitude to generate these clouds) int 50
+
+
+lib_clouds_fog_maxy (Maximum altitude to generate these clouds) int 35
+
+lib_clouds_fog_miny (Minimum altitude to generate these clouds) int 0
+
