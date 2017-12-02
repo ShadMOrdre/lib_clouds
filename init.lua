@@ -25,8 +25,8 @@ if enable == true then
 
 	minetest.register_node('lib_clouds:cloud_cirrus', {
 		description = S("Cirrus Cloud"),
-		_doc_items_longdesc = S("3D Clouds"),
-		_doc_items_usagehelp = S("Generates 3D Clouds in air between 150m and 200m."),
+		_doc_items_longdesc = S("Cirrus Clouds"),
+		_doc_items_usagehelp = S("Generates puffy clouds in air between 150m and 200m."),
 		drawtype = "glasslike",
 		tiles = {"lib_clouds_cloud.png"},
 		--use_texture_alpha = false,
@@ -53,8 +53,8 @@ if enable == true then
 
 	minetest.register_node('lib_clouds:cloud_cumulus', {
 		description = S("Cumulus Cloud"),
-		_doc_items_longdesc = S("3D Clouds"),
-		_doc_items_usagehelp = S("Generates 3D Clouds in air between 120 and 150m."),
+		_doc_items_longdesc = S("Cumulus Clouds"),
+		_doc_items_usagehelp = S("Generates large flat clouds in air between 120 and 150m."),
 		drawtype = "glasslike",
 		tiles = {"lib_clouds_cloud.png"},
 		use_texture_alpha = true,
@@ -79,9 +79,9 @@ if enable == true then
 	})
 
 	minetest.register_node('lib_clouds:cloud_fog', {
-		description = S("Cirrus Cloud"),
-		_doc_items_longdesc = S("3D Clouds"),
-		_doc_items_usagehelp = S("Generates 3D Clouds in air between water_level or 1 and 25m."),
+		description = S("Fog"),
+		_doc_items_longdesc = S("Foggy Clouds"),
+		_doc_items_usagehelp = S("Generates fog in air between water_level or 1 and 25m."),
 		drawtype = "glasslike",
 		tiles = {"lib_clouds_cloud.png"},
 		use_texture_alpha = true,
@@ -159,7 +159,7 @@ if enable == true then
 	minetest.register_ore({
 		ore_type = "puff", -- See "Ore types"
 		ore = "lib_clouds:cloud_fog",
-		wherein = {"air", "default:water_source",},
+		wherein = "air",
 		clust_scarcity = 8*8*8,
 		clust_num_ores = 8,
 		clust_size = 3,
